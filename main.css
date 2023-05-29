@@ -1,0 +1,743 @@
+body{
+    margin: 0%;
+}
+.container{
+    padding: 50px;
+}
+.container_1{
+    padding: 50px;
+}
+.container2{
+    
+    padding-top: 50px;
+}
+.containerrr{ 
+    display: none;
+}
+.top-content{
+background-color: #85CDFD;
+height: 10%;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+a:hover{
+    color: #F9DD4B;
+}
+.main-menu{
+font-size: 20px;
+color: white;
+margin-left: 20%;
+margin-top: -2%;
+}
+.main-menu2{
+    display: flex;
+    list-style-type:none;
+    
+}
+
+.main-menu2 li{
+    display:inline-block;
+    padding:10px;
+}
+.top-icon{
+    margin-left: 25%;
+}
+
+.main-content{
+    margin-top: 5%;
+   
+    font-weight: bold;
+    text-align: center;
+}
+.main-name{
+    font-size: 70px;
+}
+#travel{
+    color: #537FE7;
+}
+#ua{
+    color:#F9DD4B;
+}
+.main-info{
+    font-size: 30px;
+    color: #fff;
+
+}
+.route-selection{
+    text-align: center;
+}
+#route-select{
+    font-size: 32px;
+   
+}
+.selector{
+    display: flex;
+    margin-left: 4%;
+    margin-top: 3%;
+    justify-content: space-between;
+}
+select{
+    background-color: #85CDFD;
+    width:200px;
+    height: 50px;
+    color: #fff;
+}
+option{
+    color: #fff;
+}
+
+#assortment{
+    background-color: #85CDFD;
+    width:200px;
+    height: 50px; 
+    border: none;
+    color: #fff;
+    
+    margin-right: 5%;
+}
+.tour-content{
+display: grid;
+justify-content: space-between;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+height: 400px;
+}
+.goverla{
+    grid-column: 1/span 1;
+    grid-row:1/span 1;
+}
+.sinevir{
+    grid-column: 1/span 1;
+    grid-row:3/span 3;  
+}
+
+.vorohta{
+    grid-column: 3/span 3;
+    grid-row:1/span 1;   
+}
+.nesamovute{
+    grid-column: 3/span 3;
+    grid-row:3/span 3;   
+}
+
+.tour-img1{
+    grid-column: 2/span 1;
+    grid-row:1/span 3;  
+    margin-top: 10%;
+}
+.tour-info{
+    background-color: #85CDFD;
+    margin-top: 15%;
+    text-align: center;
+}
+#tour-txt{
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+}
+#tour-txt2{
+    font-size: 20px;
+    color: #fff;
+}
+.goverla-info{
+    display: flex;
+   
+}
+.goverla-img-frame{
+    background-color: #537FE7;
+    width: 550px;
+height: 300px;
+margin-top: 10%;
+}
+
+.img1{
+    margin-top: 4%;
+    margin-left: 4%;
+}
+.txt{
+    font-size: 20px;
+    margin-top: 2%;
+    margin-left: 4%;
+    text-align: justify;
+}
+.vorohta-info{
+    display: flex;
+}
+.vorohta-img-frame{
+    background-color: #F9DD4B;
+    width: 550px;
+height: 300px;
+margin-top: 10%;
+}
+.line{
+    margin-top: 2%;
+    background-color: black;
+    height: 2px;
+    
+}
+.sinevir-info{
+    display: flex;
+}
+.sinevir-img-frame{
+    background-color: #537FE7;
+    width: 550px;
+height: 300px;
+margin-top: 10%;
+}
+
+.nesamovute-info{
+    display: flex;
+}
+.nesamovute-img-frame{
+    background-color: #F9DD4B;
+    width: 550px;
+height: 300px;
+margin-top: 10%;
+}
+#header-turist{
+    font-size: 40px;
+    text-align: center;
+}
+.turist-info{
+    text-align: justify;
+    font-size: 28px;}
+
+.reviews{
+    text-align: center;
+    background-color: #85CDFD;
+    color: #fff;
+}
+.reviews-content{
+    color: black;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    
+    background-color: #fff;
+    width: 350px;
+    height: 550px;
+    border-radius: 40px;
+    
+}
+.reviews-card2{
+    margin-left: 5%
+}
+.reviews-card3{
+    margin-left: 5%;
+    text-align: center
+}
+.icon{
+    background-color: #FEDEFF;
+    border-radius: 100%;
+    width: 100px;
+    margin-top: -15%;
+    margin-left: 35%;
+}
+.name1{
+    font-size: 32px;
+    margin-top: 20%;
+    
+}
+.name2{
+    font-size: 32px;
+    margin-top: 20%;
+   
+}
+.name3{
+    font-size: 32px;
+    margin-top: 20%;
+    
+}
+.review{
+    width: 300px;
+    font-size: 24px;
+    text-align:start;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-info{
+   
+    font-size: 30px;
+    text-align: center;
+    margin-top: 7%;
+}
+.form{
+    margin-left: 10%;
+    font-size: 30px;
+    text-align: center;
+}
+input{
+background-color: #85CDFD;
+border: none;
+border-radius: 15px;
+width: 400px;
+height: 40px;
+text-align: center;
+color: #fff;
+font-size: 20px;
+}
+#button1{
+    margin-top: 7% ;
+    width: 200px;
+    height: 43px;
+    border-radius: 40px;
+}
+.inp{
+    margin-top: 5%;
+    margin-bottom: 5%;
+   
+}
+
+
+.all{
+    display: none;
+}
+
+@media screen  and (max-width:390px) {
+    .container_1{
+        margin-top: -30%;
+    }
+    .logo{
+        display: none;
+    }
+    .top-icon{
+        margin-left: 55%;
+        
+    }
+   #inst{
+    width: 20px;
+    height: 20px;
+   }
+   #face{
+    width: 20px;
+    height: 20px;
+   }
+   #twi{
+    width: 20px;
+    height: 20px;
+}
+    .main-menu2{
+        display: none;
+    }
+    .main-name{
+        font-size: 28px;
+        width: 300px;
+       
+    }
+    .main-info{
+        font-size: 15px;
+        color: #fff;
+        margin-left: 5%;
+    }
+
+    .selector{
+        display: none;
+    }
+
+    #route-select{
+        display: none;
+    }
+    .tour-content{
+        display: none;
+              }
+    .container1{
+        display: none;
+    }
+    .container2{
+        display: none;
+    }
+    
+    .goverla-info{
+        display: block;
+        
+    }
+    .goverla-img-frame{
+        width: 300px;
+        height: 170px;
+    }
+    #goVerla{
+        width: 250px;
+        margin-left: -1%;
+    }
+    .txt{
+        font-size: 10px;
+        color: white;
+        margin-top: 10%;
+    }
+
+    .vorohta-info{
+        display: block;
+        
+    }
+    .vorohta-img-frame{
+        width: 300px;
+        height: 170px;
+        
+    }
+    #voRohta{
+        width: 250px;
+        margin-left: -1%;
+    }
+    .sinevir-info{
+        display: block;
+        
+    }
+    .sinevir-img-frame{
+        width: 300px;
+        height: 170px;
+        
+    }
+    #siNevir{
+        width: 250px;
+        margin-left: -1%;
+    }
+    .nesamovute-info{
+        display: block;
+        
+    }
+    .nesamovute-img-frame{
+        width: 300px;
+        height: 170px;
+        
+    }
+    #neSamovute{
+        width: 250px; 
+        margin-left: -1%;
+    }
+    .turist-info{
+        text-align: justify;
+        font-size: 20px;}
+        .contact{
+            display: block;
+        }
+        .form{
+            margin-top: -220%;
+            margin-left: -5%;
+        }
+        .contact-info{
+            margin-top: 150%;
+
+            margin-left: -5%;
+        }
+        input{
+            background-color: #85CDFD;
+            border: none;
+            border-radius: 15px;
+            width: 300px;
+            height: 40px;
+            text-align: center;
+            color: #fff;
+            font-size: 20px;
+            }
+            #button1{
+                margin-top: 7% ;
+                width: 200px;
+                height: 43px;
+                border-radius: 40px;
+            }
+            .inp{
+                margin-top: 5%;
+                margin-bottom: 5%;
+               
+            }
+            .reviews{
+                display: none;
+            }
+            .all{
+                display: block;
+                background-color: #76c8ff;
+                height: 600px;
+            }
+            .card-slid{
+    
+                background-color: #d7d7d7;
+                width: 250px;
+                height: 450px;
+                border-radius: 40px;
+                margin-top: 5%;
+                margin-left: 3.5%;
+            }
+            .reviews-card2-slid{
+                font-size: 24px;
+                margin-left: 19%;
+                margin-top: 25%;
+            }
+            .reviews-card3-slid{
+                font-size: 24px;
+                margin-left: 19%;
+                margin-top: 25%;
+            }
+            .icon-slid{
+                background-color: #FEDEFF;
+                border-radius: 100%;
+                width: 100px;
+                margin-top: -30%;
+                margin-left: 30%;
+            }
+            .name1-slid{
+                font-size: 32px;
+                margin-top: 15%;
+                
+            }
+            .name2-slid{
+                font-size: 32px;
+                margin-top: 15%;
+               
+            }
+            .name3-slid{
+                font-size: 32px;
+                margin-top: 15%;
+                
+            }
+            
+            .review-slid{
+                width: 300px;
+                height: 10px;
+                font-size: 24px;
+                margin-left: -10%;
+                margin-top: 40%;
+            }
+            #slider { 
+                position: relative;
+                text-align: center;
+                top: 10px;
+            }
+            
+            #slider{ 
+                margin: 0 auto;
+            }
+            
+            #slides article{ 
+                width: 20%;
+                float: left;
+            }
+            
+            #slides .image{ 
+                width: 500%;
+                line-height: 0;
+            }
+            
+            #overflow{ 
+                width: 100%;
+                overflow: hidden;
+            }
+            
+            article img{ 
+                width: 100%;
+            }
+            
+            #desktop:checked ~ #slider{ 
+                max-width: 960px; 
+            }
+            
+           
+            #switch1:checked ~ #controls label:nth-child(5), 
+            #switch2:checked ~ #controls label:nth-child(1),
+            #switch3:checked ~ #controls label:nth-child(2),
+            #switch4:checked ~ #controls label:nth-child(3),
+            #switch5:checked ~ #controls label:nth-child(4){
+                background: url('prev.png') no-repeat;
+                float: left;
+                margin: 0 0 0 -84px; 
+                display: block;
+                height: 68px;
+                width: 68px;
+            }
+            
+          
+            #switch1:checked ~ #controls label:nth-child(2), 
+            #switch2:checked ~ #controls label:nth-child(3),
+            #switch3:checked ~ #controls label:nth-child(4),
+            #switch4:checked ~ #controls label:nth-child(5),
+            #switch5:checked ~ #controls label:nth-child(1){
+                background: url('next.png') no-repeat; 
+                float: right;
+                margin: 0 -84px 0 0; 
+                display: block;
+                height: 68px;
+                width: 68px;
+            }
+            
+            label, a{
+                cursor: pointer;
+            }
+            
+            .all input{ 
+                display: none;
+            }
+            
+      
+            #switch1:checked ~ #slides .image{
+                margin-left: 0;
+            }
+            
+            #switch2:checked ~ #slides .image{
+                margin-left: -100%;
+            }
+            
+            #switch3:checked ~ #slides .image{
+                margin-left: -200%;
+            }
+            
+            #switch4:checked ~ #slides .image{
+                margin-left: -300%;
+            }
+            
+            #switch5:checked ~ #slides .image{
+                margin-left: -400%;
+            }
+            
+            #controls{ 
+                margin: -25% 0 0 0;
+                width: 100%;
+                height: 50px;
+                overflow: hidden;
+            }
+            
+            #active label{ 
+                border-radius: 10px; 
+                display: inline-block; 
+                width: 15px;
+                height: 15px;
+                background: #bbb;
+            }
+            
+            #active{ 
+                margin: 23% 0 0;
+                text-align: center;
+            }
+            
+            #active label:hover{ 
+                background: #76c8ff;
+                border-color: #777 !important; 
+            }
+            
+            
+         
+            #switch1:checked ~ #active label:nth-child(1),
+            #switch2:checked ~ #active label:nth-child(2),
+            #switch3:checked ~ #active label:nth-child(3),
+            #switch4:checked ~ #active label:nth-child(4),
+            #switch5:checked ~ #active label:nth-child(5){
+                background: #18a3dd;
+                border-color: #18a3dd !important;
+            }
+            
+            #slides .image{ 
+                transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+            }
+            
+            #controls label:hover{ 
+                opacity: 0.6;
+            }
+            
+            #controls label{ 
+                transition: opacity 0.2s ease-out;
+            }
+            
+}
+
+.containerrr{
+    width: 120px;
+    margin: auto;
+
+}
+
+#burger, [for=burger]{
+    display: none;
+}
+
+
+@media screen and (max-width: 500px) {
+    .containerrr{
+        width: 80%;
+        display: block;
+    }          
+    [for=burger]{
+        display: block;
+        position: fixed;
+        width: 30px;
+        text-align: center;
+        margin-top: 8%;
+        top: 10px;
+        margin-left: 4%;
+    }
+    [for=burger]::before{
+        content: '☰';
+        color: #fff;
+    }
+    nav{
+        display: none;
+        position: fixed;
+        top: 0;
+        margin-top: 30px;
+        background:  #537FE7;
+        width: 50%;
+        user-select: none;
+        margin-left: 100px;
+        margin-top: 10%;
+    }
+    nav ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+    #burger:checked + label + nav{
+        display: block;
+        animation: show .5s ease;
+    }
+    #burger:checked +[for=burger]::before{
+        content: '⮾';
+    }
+}
+
+@keyframes show {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.overflow {
+    display: none;
+  }
+  
+  .exile1 {
+    max-width: 100px;
+    position: relative;
+    height: 30px;
+  }
+  
+  .exile1:hover .overflow {
+    top: 22px;
+    position: absolute;
+    display: block;
+  
+  }
+  
+  .car{
+    background-color: #bbbbbb82;
+    
+    
+  }
+
+  #button1:hover{
+background-color: #537FE7;
+  }
